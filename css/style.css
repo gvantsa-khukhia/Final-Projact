@@ -557,7 +557,7 @@ backdrop-filter: blur(0.5px);
 }
 
 .article_text_div{
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -1131,7 +1131,7 @@ footer{
 /* section3 */
 
 .page3_section3{
-    width: 60%;
+    width: 50%;
     /* height: 408px; */
     background-color: rgba(213, 144, 110, 0.3);
     margin: 160px auto;
