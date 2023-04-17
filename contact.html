@@ -13,8 +13,8 @@
     
     <script src="https://kit.fontawesome.com/45850a0e72.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Contact</title>
 </head>
 <body>
@@ -25,10 +25,10 @@
 
 <header>
 
-      
+    <i class="fa-solid fa-bars"></i>   
         
     <nav>
-        <ul>
+        <ul class="header_nav">
             <li><a class="header_info noactive" href="index.html">Home</a></li>
             <li><a class="header_info noactive" href="about.html">Artworks</a></li>
             <li><a class="header_info active" href="contact.html">Contact</a></li>
@@ -57,39 +57,39 @@
 
 
     <div class="touch_box">
-
         <h5 class="touch_box_title">
             Get  in Touch
         </h5>
 
-        <div class="touch_box_div2">
-            <div class="full_name">
-                <p class="touch_box_text">
-                    Full Name
-                </p>
-            </div>
 
-            <div class="email2">
-                <p class="touch_box_text">
-                    Email
-                </p>
-            </div>
+        <div class="touch_box_div">
+            <form class="touch_box_form">
+
+                <div class="touch_box_div1">
+                    <input type="text" name="fullname" value="" placeholder="Full Name" class="full_name touch_box_text">
+                
+                
+                    <input type="text" name="email" value="" placeholder="Email" class="mail touch_box_text"> 
+                
+                </div>
+                
+                
+                    <textarea class="message touch_box_text" name="message" id="message" placeholder="Message"></textarea>
+                
+                    <button class="submit" type="submit">
+                <p class="button_submit">SUBMIT</p>
+                      </button> 
+                
+                    </form>
         </div>
 
-        <div class="message">
-            <p class="touch_box_text">
-                Message
-            </p>
-        </div>
-
-        <button class="touch_box_button">
-
-            <p class="touch_box_submit">
-                SUBMIT
-            </p>
-        </button>
     </div>
-</section>
+
+    
+
+
+    </section>
+</div>
 
 <!-- section3 -->
 
@@ -148,14 +148,19 @@
         <div class="footer_div1">
 
         
-            <nav>
+            <nav class="footer_nav">
                 <ul class="footer_ul">
                     <li><a class="footer_ul_text" href="">Hele</a></li>
                     <li><a class="footer_ul_text" href="">Help Centre</a></li>
                     <li><a class="footer_ul_text" href="">Privacy Settings</a></li>
                 </ul>
             </nav>
-        
+         
+            <div class="icons_div">
+                <a href=""><i class="fa-brands fa-youtube footer_socials"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram footer_socials"></i></a>
+                <a href=""><i class="fa-brands fa-facebook footer_socials"></i></a>
+            </div>
 
 
 
@@ -186,18 +191,17 @@
 
     </div>
 
+ 
 
 
 </div>
 
-    </div>
 
-    <div class="icons_div">
-        <a href=""><i class="fa-brands fa-youtube footer_socials"></i></a>
-        <a href=""><i class="fa-brands fa-square-instagram footer_socials"></i></a>
-        <a href=""><i class="fa-brands fa-facebook footer_socials"></i></a>
-    </div>
 
+</div>
+
+
+   
 </footer>
 
 

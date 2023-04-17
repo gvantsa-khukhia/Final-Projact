@@ -12,8 +12,8 @@
     
     <script src="https://kit.fontawesome.com/45850a0e72.js" crossorigin="anonymous"></script>   
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Home</title>
 </head>
 <body>
@@ -25,8 +25,10 @@
         <header>
 
       
-        
-            <nav>
+            <i class="fa-solid fa-bars"></i>
+            
+            
+            <nav class="header_nav">
                 <ul>
                     <li><a class="header_info active" href="index.html">Home</a></li>
                     <li><a class="header_info noactive" href="about.html">Artworks</a></li>
@@ -63,7 +65,7 @@
             Pottery is an ancient craft, with the earliest historical records of wheel-thrown pottery dating back to 4000 B.C. in Egypt and 3000 B.C. in China. In this article, I’ll talk about how wheel-thrown pottery developed and was refined as a craft and will discuss glazes and types of clay.
         </p>
     
-        <div class="shop_now">
+        <div class="shop_now page2_shop_now">
            <p class="shop_now_text" >Shop Now</p>
         </div>
        </div>
@@ -75,28 +77,32 @@
 
 <section class="section2">
 
-<div class="card">
-    <a class="section2_img" href=""><img src="img/section2_img1.png" alt="pottery"></a>
-
-    <p><a class="section2_text" href="">Pottery Classes</a></p>
+<div class="first_row_for_media">
+    <div class="card">
+        <a class="section2_img" href=""><img src="img/section2_img1.png" alt="pottery"></a>
+    
+        <p><a class="section2_text" href="">Pottery Classes</a></p>
+    </div>
+    
+    <div class="card">
+        <a class="section2_img" href=""><img src="img/section2_img2.png" alt="pottery"></a>
+    
+        <p><a class="section2_text" href="">Design Process</a></p>
+    </div>
 </div>
 
-<div class="card">
-    <a class="section2_img" href=""><img src="img/section2_img2.png" alt="pottery"></a>
-
-    <p><a class="section2_text" href="">Design Process</a></p>
-</div>
-
-<div class="card">
-   <a class="section2_img" href=""><img src="img/section2_img3.png" alt="pottery"></a>
-
-   <p><a class="section2_text" href="">Gift Pottery</a></p>
-</div>
-
-<div class="card">
-    <a class="section2_img" href=""><img src="img/section2_img4.png" alt="pottery"></a>
-
-    <p><a class="section2_text" href="">Ceramic Painting</a></p>
+<div class="second_row_for_media">
+    <div class="card">
+        <a class="section2_img" href=""><img src="img/section2_img3.png" alt="pottery"></a>
+     
+        <p><a class="section2_text" href="">Gift Pottery</a></p>
+     </div>
+     
+     <div class="card">
+         <a class="section2_img" href=""><img src="img/section2_img4.png" alt="pottery"></a>
+     
+         <p><a class="section2_text" href="">Ceramic Painting</a></p>
+     </div>
 </div>
 
 
@@ -116,23 +122,35 @@
  <div class="section3_img">
 
     
-<div class="section3_imgs_1st_row">
-    <img src="img/section3_img1.png" alt="">
+
+   
+    <div class="gallery_img1">
+        <img class="gallery_img" src="img/section3_img1.png" alt="">
+    </div>
+   
     
-<img src="img/section3_img2.png" alt="">
+<div class="gallery_img2">
+    <img class="gallery_img" src="img/section3_img2.png" alt="">
+</div>
+
+    
+
+    
+
+    <div class="gallery_img3">
+        <img class="gallery_img" src="img/section3_img3.png" alt="">
+    </div>
+    
+
+<div class="gallery_img4">
+    <img class="gallery_img" src="img/section3_img4.png" alt="">
 </div>
     
 
-    
-<div class="section3_imgs_2nd_row">
-    <img src="img/section3_img3.png" alt="">
-    
-
-<img src="img/section3_img4.png" alt="">
-    
-
-<img src="img/section3_img5.png" alt="">
+<div class="gallery_img5">
+    <img class="gallery_img" src="img/section3_img5.png" alt="">
 </div>
+
     
 
 
@@ -175,7 +193,7 @@
 
     </div>
 
-    <div class="section4_card">
+    <div class="section4_card section4_card5">
 <a href=""><img src="img/section4_img4.png" alt=""></a>
 
 
@@ -183,6 +201,10 @@
     </div>
 
     <a class="arrow" href=""><i class="fa-solid fa-arrow-right"></i></a>
+
+    <button class="latest_product_button">
+        View More
+    </button>
 
     </div>
 
@@ -199,16 +221,20 @@
             Subscribe to Newsletter
         </h3>
 
-        <div class="subscribe_box">
-            <p class="email">
-                Email Address
-            </p>
 
-            <p class="subscribe">
-                SUBSCRIBE
-            </p>
-        </div>
 
+            
+                <form name="subscribe">
+                    <input class="mail_for_sub" type="text" name="email" value="" placeholder="Email Address">
+        
+                    <input class="subscribe_input" type="submit" value="SUBSCRIBE">
+        
+                    
+        
+                </form>
+            
+    
+        
 
     </div>
 </section>
@@ -282,14 +308,19 @@
         <div class="footer_div1">
 
         
-            <nav>
+            <nav class="footer_nav">
                 <ul class="footer_ul">
                     <li><a class="footer_ul_text" href="">Hele</a></li>
                     <li><a class="footer_ul_text" href="">Help Centre</a></li>
                     <li><a class="footer_ul_text" href="">Privacy Settings</a></li>
                 </ul>
             </nav>
-        
+         
+            <div class="icons_div">
+                <a href=""><i class="fa-brands fa-youtube footer_socials"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram footer_socials"></i></a>
+                <a href=""><i class="fa-brands fa-facebook footer_socials"></i></a>
+            </div>
 
 
 
@@ -320,18 +351,17 @@
 
     </div>
 
+ 
 
 
 </div>
 
-    </div>
 
-    <div class="icons_div">
-        <a href=""><i class="fa-brands fa-youtube footer_socials"></i></a>
-        <a href=""><i class="fa-brands fa-square-instagram footer_socials"></i></a>
-        <a href=""><i class="fa-brands fa-facebook footer_socials"></i></a>
-    </div>
 
+</div>
+
+
+   
 </footer>
 
     </div>
